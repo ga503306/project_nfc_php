@@ -1,0 +1,66 @@
+<!-- 使用者登入畫面 -->
+<HTML>
+	<head>
+		<meta charset="utf-8" />
+		<TITLE>登入畫面</TITLE>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/login.css" type="text/css">
+		<link rel="Shortcut Icon" type="image/x-icon" href="../images/page.ico" />
+	</head>
+	<body>
+		<div id="header">
+			<div>
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+				</div>
+				
+				<div align="center">
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+					
+					<ul id="navigation">
+						<li class="selected">
+							<a href="index.html">主頁</a>
+						</li>
+						<li>
+							<a href="idpass/register.php">申請帳號</a>
+						</li>
+						<li>
+							<a href="idpass/rulerin.php">管理者登入</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div id="details">
+				
+				<div>
+					<form name="form" method="post" action="api/useridpass_sql.php">
+						<h2><span class="entypo-login"></span> 學生登入</h2>
+						
+						<button class="submit"><span class="entypo-lock"></span></button>				
+						<span class="entypo-user inputUserIcon"></span>
+						<input type="text" class="user" placeholder="ursername" name="userid"/>
+						<span class="entypo-key inputPassIcon"></span>
+						<input type="password" class="pass"placeholder="password" name="userpass"/>
+					</form>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer1">
+			<div>
+				<div id="connect">
+					<a href="https://www.facebook.com/nhucsie/" target="_blank" class="facebook"></a>
+				</div>
+				
+				<p id="footnote">
+					© Copyright 2016. hzt.
+				</p>
+			</div>
+		</div>
+	</body>
+</HTML>		
