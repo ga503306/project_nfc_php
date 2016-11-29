@@ -2,8 +2,7 @@
 	date_default_timezone_set('Asia/Taipei');
 	mysql_connect('localhost','root',''); 
 	mysql_select_db("userregisterclassroom");
-	$sendthis = $_POST["sendthis"];
-	
+	$sendthis = $_POST["sendthis"]; //arduino 變數 傳過來	
 	$sendthis_cut = explode("_",$sendthis);
 	/*$sendthis_cut[0] = 學號 $sendthis_cut[1] = in or out*/
 	//echo $sendthis_cut[0];
