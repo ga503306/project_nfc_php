@@ -1,4 +1,4 @@
-
+<meta charset="UTF-8" />
 <?php
 	//資料庫設定
 	//資料庫位置

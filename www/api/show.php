@@ -70,7 +70,7 @@
 											window.alert('借用失敗');
 										</script>
 										<?php
-										echo '<meta http-equiv=REFRESH CONTENT=0;url=writeclassroom.php>';
+										echo '<meta http-equiv=REFRESH CONTENT=0;url=../classroom/writeclassroom.php>';
 									}
 									else
 									{

@@ -63,7 +63,7 @@
 		echo '<meta http-equiv=REFRESH CONTENT=1;url=../ruler/classroommanage.php>';
 		
 		@mysql_close($link); //關閉資料庫連結
-		//echo '<meta http-equiv=REFRESH CONTENT=1;url=classroommanage.php>';
+		//echo '<meta http-equiv=REFRESH CONTENT=1;url=../classroommanage.php>';
 		
 	?>
 	<?php 

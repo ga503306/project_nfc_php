@@ -37,11 +37,11 @@ if($userid != null && $pw != null && $row[0] == $userid && $row[1] == $pw)
 else
 {
         echo '借用失敗!';
-       /* echo '<meta http-equiv=REFRESH CONTENT=1;url=index.html>';*/
-		echo $row[0];
-		echo $row[1];
-		echo $result;
-		echo $sql;
+        echo '<meta http-equiv=REFRESH CONTENT=1;url=../index.html>';
+		//echo $row[0];
+		//echo $row[1];
+		//echo $result;
+		//echo $sql;
 }
 	}
 ?>

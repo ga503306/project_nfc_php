@@ -55,7 +55,7 @@
 		window.alert('登入失敗');
 	</script>
 	<?PHP
-		echo '<meta http-equiv=REFRESH CONTENT=0;url=rulerin.php>';
+		echo '<meta http-equiv=REFRESH CONTENT=0;url=../idpass/rulerin.php>';
 	}
 	
 ?>		

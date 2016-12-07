@@ -16,12 +16,12 @@
 	$row = @mysql_fetch_row($result);
 	
 	//判斷申請資料是否為空值
-	//if(!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $Email))
-	//{
-	//	echo '此信箱格式有誤';
-	//echo '<meta http-equiv=REFRESH CONTENT=2;url=../index.html>';
-	//}
-	if($userid==$row[1] && $userid != null && $username != null ){
+	if(!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $Email))
+	{
+		echo '此信箱格式有誤';
+	echo '<meta http-equiv=REFRESH CONTENT=2;url=../index.html>';
+	}
+	else if($userid==$row[1] && $userid != null && $username != null ){
 		echo "<script>alert('新增失敗 使用者帳號重複!');</script>";
         echo '<meta http-equiv=REFRESH CONTENT=0;url=../idpass/register.php>';
 	}

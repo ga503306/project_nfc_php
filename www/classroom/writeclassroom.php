@@ -160,7 +160,7 @@
 																weekHeader:"週"
 															};
 															$.datepicker.setDefaults($.datepicker.regional["zh-TW"]);
-															$("#datepicker1").datepicker({dateFormat:"yy-mm-dd",changeYear: true, changeMonth: true, yearRange:"-50:+0", minDate: 'today'+2});
+															$("#datepicker1").datepicker({dateFormat:"yy-mm-dd",changeYear: true, changeMonth: true, minDate: 'today'+2});
 														});
 													</script>
 												</p></h4>
