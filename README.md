@@ -67,7 +67,7 @@ registmanage.php:管理申請帳號狀況
 
 rulerwork.php:管理者選擇執行工作
 
-searchpicture:管理者執行查詢圖片動作
+searchpicture:管理者執行查詢圖片動作 (readdir 回傳. ..)
 ---------------------------------------------------------
 applogin.php:
 
