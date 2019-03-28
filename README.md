@@ -1,5 +1,32 @@
 # project_nfc_php
+
 大學專題 （網頁部分）<br/>
+<首頁>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E4%B8%BB%E9%A0%81%E9%9D%A2.jpg)
+<帳號申請>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E5%B8%B3%E8%99%9F%E7%94%B3%E8%AB%8B.jpg)
+<管理員登入>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E7%AE%A1%E7%90%86%E5%93%A1%E7%99%BB%E5%85%A5.jpg)
+<使用者介面>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E4%BD%BF%E7%94%A8%E8%80%85%E4%BB%8B%E9%9D%A2.jpg)
+<查詢登記狀況>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E6%9F%A5%E8%A9%A2%E7%99%BB%E8%A8%98%E7%8B%80%E6%B3%81.jpg)
+<變更密碼>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E8%AE%8A%E6%9B%B4%E5%AF%86%E7%A2%BC.jpg)
+<問題回報>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E5%95%8F%E9%A1%8C%E5%9B%9E%E5%A0%B1.jpg)
+<信箱寄信>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E4%BF%A1%E7%AE%B1%E5%AF%84%E4%BF%A1.png)
+<管理者主頁面>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E7%AE%A1%E7%90%86%E8%80%85%E4%B8%BB%E9%A0%81%E9%9D%A2.jpg)
+<審核申請教室>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E5%AF%A9%E6%A0%B8%E7%94%B3%E8%AB%8B.jpg)
+<審核申請者影本>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E5%AF%A9%E6%A0%B8%E7%94%B3%E8%AB%8B%E8%80%85%E5%BD%B1%E6%9C%AC.jpg)
+<審核申請帳號.jpg>
+![image](https://github.com/ga503306/project_nfc_php/blob/fix-api/Readmefile/%E5%AF%A9%E6%A0%B8%E7%94%B3%E8%AB%8B%E5%B8%B3%E8%99%9F.jpg)
+
+
 api:連接傳送資料
 censoridpass.php:審核帳號並寄郵件
 
